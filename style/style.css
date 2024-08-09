@@ -1,0 +1,243 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header{
+    display: flex;
+    width: 100%;
+    height: 10vh;
+    justify-content:space-evenly;
+}
+.box{
+    display: flex;
+    width: 200px;
+    height: 200px;
+    background-color: #995DB5;
+    border-radius: 10px;
+    margin-top: 70px;
+    padding: 10px;
+    gap: 8px;
+}
+.a1{
+    width: 35px;
+    height: 35px;
+    background-color: orange;
+    border-radius: 3px;
+    border: 1px solid black;
+}
+.box1{
+    display: flex;
+    width: 200px;
+    height: 200px;
+    background-color: #995DB5;
+    border-radius: 10px;
+    margin-top: 70px;
+    padding: 10px;
+    gap: 8px;
+    flex-direction: column;
+}
+.a2{
+    width: 35px;
+    height: 35px;
+    border-radius: 3px;
+    background-color: orange;
+    border: 1px solid black;
+}
+.box2{
+    display: flex;
+    width: 200px;
+    height: 200px;
+    background-color: #995DB5;
+    flex-wrap: wrap;
+    border-radius: 10px;
+    margin-top: 70px;
+    padding: 10px;
+    gap: 8px;
+}
+.a3{
+    width: 35px;
+    height: 35px;
+    background-color: orange;
+    border-radius: 3px;
+    border: 1px solid black;
+}
+.box3{
+    display: flex;
+    width: 200px;
+    height: 200px;
+    background-color: #995DB5;
+    border-radius: 10px;
+    margin-top: 70px;
+    padding: 10px;
+    gap: 8px;
+    justify-content: space-between;
+}
+.a4{
+    width: 35px;
+    height: 35px;
+    background-color: orange;
+    border-radius: 3px;
+    border: 1px solid black;
+}
+.header2{
+    display: flex;
+    width: 100%;
+    height: 15vh;
+    justify-content:space-evenly;
+}
+.box4{
+    display: flex;
+    width: 200px;
+    height: 200px;
+    background-color: #995DB5;
+    border-radius: 10px;
+    margin-top: 250px;
+    padding: 10px;
+    gap: 8px;
+    flex-direction: row;
+}
+.a5{
+    width: 35px;
+    height: 35px;
+    background-color: orange;
+    border-radius: 3px;
+    border: 1px solid black;
+}
+.box5{
+    display: flex;
+    width: 200px;
+    height: 200px;
+    background-color: #995DB5;
+    border-radius: 10px;
+    margin-top: 250px;
+    padding: 10px;
+    gap: 8px;
+    flex-direction: row-reverse;
+}
+.a6{
+    width: 35px;
+    height: 35px;
+    background-color: orange;
+    border-radius: 3px;
+    border: 1px solid black;
+}
+.box6{
+    display: flex;
+    width: 200px;
+    height: 200px;
+    background-color: #995DB5;
+    border-radius: 10px;
+    margin-top: 250px;
+    padding: 10px;
+    gap: 8px;
+    flex-direction: row;
+    justify-content: center;
+}
+.a7{
+    width: 35px;
+    height: 35px;
+    background-color: orange;
+    border-radius: 3px;
+    border: 1px solid black;
+}
+.box7{
+    display: flex;
+    width: 200px;
+    height: 200px;
+    background-color: #995DB5;
+    border-radius: 10px;
+    margin-top: 250px;
+    padding: 10px;
+    gap: 8px;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+}
+.a8{
+    width: 35px;
+    height: 35px;
+    background-color: orange;
+    border-radius: 3px;
+    border: 1px solid black;
+}
+.header3{
+    display: flex;
+    width: 100%;
+    height: 10vh;
+    justify-content:space-evenly;
+}
+.box8{
+    display: flex;
+    width: 200px;
+    height: 200px;
+    background-color: #995DB5;
+    border-radius: 10px;
+    margin-top: 400px;
+    padding: 10px;
+    gap: 8px;
+    flex-direction: row;
+}
+.a9{
+    width: 35px;
+    height: 35px;
+    background-color: orange;
+    border-radius: 3px;
+    border: 1px solid black;
+}
+.box9{
+    display: flex;
+    width: 200px;
+    height: 200px;
+    background-color: #995DB5;
+    border-radius: 10px;
+    margin-top: 400px;
+    padding: 10px;
+    gap: 8px;
+    flex-direction: row;
+    align-items: end;
+}
+.a10{
+    width: 35px;
+    height: 35px;
+    background-color: orange;
+    border-radius: 3px;
+    border: 1px solid black;
+}
+.box10{
+    display: flex;
+    width: 200px;
+    height: 200px;
+    background-color: #995DB5;
+    border-radius: 10px;
+    margin-top: 400px;
+    padding: 10px;
+    gap: 8px;
+    flex-direction: row;
+    align-items: center;
+}
+.a11{
+    width: 35px;
+    height: 35px;
+    background-color: orange;
+    border-radius: 3px;
+    border: 1px solid black;
+}
+.box11{
+    display: flex;
+    width: 200px;
+    height: 200px;
+    background-color: #995DB5;
+    border-radius: 10px;
+    margin-top: 400px;
+    padding: 10px;
+    gap: 8px;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+}
+.a12{
+    width: 35px;
+    height: 35px;
+    background-color: orange;
+    border-radius: 3px;
+    border: 1px solid black;
+}
